@@ -2,6 +2,12 @@
 
 This file is used to list changes made in each version of the ruby_rbenv cookbook.
 
+## 2.1.3 (2019-07-17)
+
+- Update CircleCI testing orb
+- Update platforms, remove Debian 8 testing support
+- Fix Debian 10 dependency: libgdm6
+
 ## 2.1.2 (2018-11-09)
 
 - Fix `TypeError: no implicit conversion of nil into String` for `mac_os_x` platforms
